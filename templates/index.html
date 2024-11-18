@@ -8,7 +8,7 @@
         <div class="produto {% if not produto.disponivel %}esgotado{% endif %}">
             <img src="{{ url_for('static', filename=produto.imagem) }}" alt="{{ produto.nome }}">
             <h3>{{ produto.nome }}</h3>
-            <p>{{ produto.preco }}</p>
+            {# <p>{{ produto.preco }}</p> #}
             {% if produto.disponivel %}
                 <a href="{{ produto.url }}" target="_blank" class="btn-add-cart">Conferir</a>
             {% else %}
