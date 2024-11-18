@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IpyowTec</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link para o Font Awesome -->
+</head>
+<body>
+    <header class="header">
+        <div class="logo">IpyowTec</div>
+        <nav class="nav">
+            <!-- Usando url_for para gerar o link correto -->
+            <a href="{{ url_for('home') }}">Home</a>
+            <a href="{{ url_for('tecnologia_som') }}">Som</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contato">Contato</a>              
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Bem-vindo à IpyowTec Affiliate</h1>
+        <p>Produtos incríveis ao seu alcance.</p>        
+    </section>
+
+    <section id="produtos" class="produtos">
+        <!-- Conteúdo dinâmico -->
+        {% block content %}{% endblock %}
+    </section>
+
+    <section id="sobre" class="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma loja dedicada a trazer os melhores produtos de plataformas parceiras, garantindo qualidade, preços competitivos e uma experiência de compra prática e segura.</p>
+    </section>
+    
+    <section id="contato" class="contato">
+        <h2>Contato</h2>      
+        <p>Para entrar em contato, envie um e-mail para:</p>
+        <p class="email-link">ipyowtec@gmail.com</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 IpyowTec - Todos os direitos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.tiktok.com/@ypiowtec" target="_blank" class="social-icon">
+                <i class="fab fa-tiktok"></i> <!-- Ícone do TikTok -->
+            </a>
+        </div>
+    </footer>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

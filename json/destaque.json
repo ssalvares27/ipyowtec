@@ -1,0 +1,31 @@
+[
+    {
+        "nome": "Caixa de Som Bluetooth RGB Com Microfone Karaokê Potente 100W Portátil Xtrad",
+        "preco": "R$ 279,97",
+        "url": "https://s.shopee.com.br/3fmUr40QdC",
+        "imagem": "images/produtos/tecnologia/som/s1.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de som Bluetooth Potente Grande Portatil Com Microfone e LED Karaokê 30W*2 XDG-37 Marca XTRAD",
+        "preco": "R$ 319,99",
+        "url": "https://s.shopee.com.br/4L2Bhtdnn2",
+        "imagem": "images/produtos/tecnologia/som/s2.jpg",
+        "disponivel": true
+    },
+
+    {
+        "nome": "Fone de ouvido Sem Fio Gamer Bluetooth RGB Edição Samurai Cyber Xtrad LC-879",
+        "preco": "R$ 119,97",
+        "url": "https://s.shopee.com.br/7fIfBo5g2F",
+        "imagem": "images/produtos/tecnologia/som/s5.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de som portátil bluetooth fusca RGB portátil com rodinha FM XTRAD WS-1939",
+        "preco": "R$ 99,97",
+        "url": "https://s.shopee.com.br/5pr11NTAVu",
+        "imagem": "images/produtos/tecnologia/som/s6.jpg",
+        "disponivel": true
+    }
+]

@@ -1,0 +1,65 @@
+[
+    {
+        "nome": "Caixa de Som Bluetooth RGB Com Microfone Karaokê Potente 100W Portátil Xtrad",
+        "preco": "R$ 279,97",
+        "url": "https://s.shopee.com.br/3fmUr40QdC",
+        "imagem": "images/produtos/tecnologia/som/s1.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de som Bluetooth Potente Grande Portatil Com Microfone e LED Karaokê 30W*2 XDG-37 Marca XTRAD",
+        "preco": "R$ 319,99",
+        "url": "https://s.shopee.com.br/4L2Bhtdnn2",
+        "imagem": "images/produtos/tecnologia/som/s2.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de som bluetooth Potente portátil com RGB IPX6 resistente a agua WS-810",
+        "preco": "R$ 99,97",
+        "url": "https://s.shopee.com.br/AA009OQHbw",
+        "imagem": "images/produtos/tecnologia/som/s3.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Microfone Condensador USB RGB para Gravação de Áudio Streaming de Mesa Jogos Pod Cast Video Cast",
+        "preco": "R$ 142,53",
+        "url": "https://s.shopee.com.br/3AqEO4Sn9q",
+        "imagem": "images/produtos/tecnologia/som/s4.jpg",
+        "disponivel": false
+    },
+    {
+        "nome": "Fone de ouvido Sem Fio Gamer Bluetooth RGB Edição Samurai Cyber Xtrad LC-879",
+        "preco": "R$ 119,97",
+        "url": "https://s.shopee.com.br/7fIfBo5g2F",
+        "imagem": "images/produtos/tecnologia/som/s5.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de som portátil bluetooth fusca RGB portátil com rodinha FM XTRAD WS-1939",
+        "preco": "R$ 99,97",
+        "url": "https://s.shopee.com.br/5pr11NTAVu",
+        "imagem": "images/produtos/tecnologia/som/s6.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de som Bluetooth Portátil com Microfone Entrada Usb Fm Sd",
+        "preco": "R$ 112,97",
+        "url": "https://s.shopee.com.br/g8wpuO2s7",
+        "imagem": "images/produtos/tecnologia/som/s7.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de Som KARAOKE Bluetooth com Dois Microfones sem Fio e Iluminação RGB",
+        "preco": "R$ 119,97",
+        "url": "https://s.shopee.com.br/4pyVnIS70y",
+        "imagem": "images/produtos/tecnologia/som/s8.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de Som Bluetooth Portátil Média Com iluminação RGB Fm Aux Usb Sb Mic P10",
+        "preco": "R$ 106,99",
+        "url": "https://s.shopee.com.br/1qKuCVaJcv",
+        "imagem": "images/produtos/tecnologia/som/s9.jpg",
+        "disponivel": true
+    }
+]
