@@ -61,5 +61,26 @@
         "url": "https://s.shopee.com.br/1qKuCVaJcv",
         "imagem": "images/produtos/tecnologia/som/s9.jpg",
         "disponivel": true
+    },
+    {
+        "nome": "Caixa de som Bluetooth Potente Multimídia com LED RGB Subwoofer TWS Estéreo sem fio XDG-96 Marca XTRAD",
+        "preco": "R$112,97",
+        "url": "https://s.shopee.com.br/1LOfMKXUGg",
+        "imagem": "images/produtos/tecnologia/som/s10.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Fone de Ouvido QCY T13 com 4 Microfones ENC e Bluetooth 5.1 - Preto, Branco e Rosa - TWS 5.3 Sem Fio",
+        "preco": "R$160,69",
+        "url": "https://s.shopee.com.br/4ff7LSDlQ1",
+        "imagem": "images/produtos/tecnologia/som/s11.jpg",
+        "disponivel": true
+    },
+    {
+        "nome": "Fone de Ouvido Sem Fio QCY T17 Bluetooth TWS 5.1 Modo Game e Microfone ENC - Preto e Branco",
+        "preco": "R$139,50",
+        "url": "https://s.shopee.com.br/9pNDVW1Xi8",
+        "imagem": "images/produtos/tecnologia/som/s12.jpg",
+        "disponivel": true
     }
 ]
