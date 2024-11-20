@@ -289,5 +289,42 @@ body {
     margin-right: 8px;
 }
 
+/* Estilos gerais para o seletor de categorias */
+#categoriaSelector {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;  /* Tamanho fixo para o seletor */
+    margin: 10px 0;  /* Margem superior e inferior */
+    display: inline-block;  /* Fica na mesma linha do conteúdo */
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+}
+
+/* Adiciona estilo quando o seletor estiver em foco */
+#categoriaSelector:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Estilo para posicionar o seletor acima da grade de produtos */
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;  /* Espaço entre o título e o seletor */
+}
+
+/* Título da página */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
 
 

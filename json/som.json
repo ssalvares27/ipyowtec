@@ -4,6 +4,7 @@
         "preco": "R$ 279,97",
         "url": "https://s.shopee.com.br/3fmUr40QdC",
         "imagem": "images/produtos/tecnologia/som/s1.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -11,6 +12,7 @@
         "preco": "R$ 319,99",
         "url": "https://s.shopee.com.br/4L2Bhtdnn2",
         "imagem": "images/produtos/tecnologia/som/s2.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -18,6 +20,7 @@
         "preco": "R$ 99,97",
         "url": "https://s.shopee.com.br/AA009OQHbw",
         "imagem": "images/produtos/tecnologia/som/s3.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -25,6 +28,7 @@
         "preco": "R$ 142,53",
         "url": "https://s.shopee.com.br/3AqEO4Sn9q",
         "imagem": "images/produtos/tecnologia/som/s4.jpg",
+        "categoria": "Microfone",
         "disponivel": false
     },
     {
@@ -32,6 +36,7 @@
         "preco": "R$ 119,97",
         "url": "https://s.shopee.com.br/7fIfBo5g2F",
         "imagem": "images/produtos/tecnologia/som/s5.jpg",
+        "categoria": "Fone de Ouvido",
         "disponivel": true
     },
     {
@@ -39,6 +44,7 @@
         "preco": "R$ 99,97",
         "url": "https://s.shopee.com.br/5pr11NTAVu",
         "imagem": "images/produtos/tecnologia/som/s6.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -46,6 +52,7 @@
         "preco": "R$ 112,97",
         "url": "https://s.shopee.com.br/g8wpuO2s7",
         "imagem": "images/produtos/tecnologia/som/s7.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -53,6 +60,7 @@
         "preco": "R$ 119,97",
         "url": "https://s.shopee.com.br/4pyVnIS70y",
         "imagem": "images/produtos/tecnologia/som/s8.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -60,6 +68,7 @@
         "preco": "R$ 106,99",
         "url": "https://s.shopee.com.br/1qKuCVaJcv",
         "imagem": "images/produtos/tecnologia/som/s9.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -67,6 +76,7 @@
         "preco": "R$112,97",
         "url": "https://s.shopee.com.br/1LOfMKXUGg",
         "imagem": "images/produtos/tecnologia/som/s10.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -74,6 +84,7 @@
         "preco": "R$160,69",
         "url": "https://s.shopee.com.br/4ff7LSDlQ1",
         "imagem": "images/produtos/tecnologia/som/s11.jpg",
+        "categoria": "Fone de Ouvido",
         "disponivel": true
     },
     {
@@ -81,6 +92,7 @@
         "preco": "R$139,50",
         "url": "https://s.shopee.com.br/9pNDVW1Xi8",
         "imagem": "images/produtos/tecnologia/som/s12.jpg",
+        "categoria": "Fone de Ouvido",
         "disponivel": true
     },
 	{
@@ -88,6 +100,7 @@
         "preco": "R$ 75,52",
         "url": "https://s.shopee.com.br/50HzCqmvjw",
         "imagem": "images/produtos/tecnologia/som/s13.jpg",
+        "categoria": "MP3",
         "disponivel": true
     },
 	{
@@ -95,6 +108,7 @@
         "preco": "R$ 196,23",
         "url": "https://s.shopee.com.br/30Wuq6JVHy",
         "imagem": "images/produtos/tecnologia/som/s14.jpg",
+        "categoria": "Som Carro",
         "disponivel": true
     },
 	{
@@ -102,6 +116,7 @@
         "preco": "R$ 409,90",
         "url": "https://s.shopee.com.br/8KYRC29AS0",
         "imagem": "images/produtos/tecnologia/som/s15.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -109,6 +124,7 @@
         "preco": "R$ 283,90",
         "url": "https://s.shopee.com.br/AA06L6Gcqb",
         "imagem": "images/produtos/tecnologia/som/s16.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -116,6 +132,7 @@
         "preco": "R$ R$99,88",
         "url": "https://s.shopee.com.br/AKJWc839ui",
         "imagem": "images/produtos/tecnologia/som/s17.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -123,6 +140,7 @@
         "preco": "R$ 68,24",
         "url": "https://s.shopee.com.br/4AitHeZgDg",
         "imagem": "images/produtos/tecnologia/som/s18.jpg",
+        "categoria": "Fone de Ouvido",
         "disponivel": true
     },
     {
@@ -130,6 +148,7 @@
         "preco": "R$ 149,99",
         "url": "https://s.shopee.com.br/4pya4zqj2Y",
         "imagem": "images/produtos/tecnologia/som/s19.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
@@ -137,6 +156,7 @@
         "preco": "R$ 116,45",
         "url": "https://s.shopee.com.br/5fXh4mBsaK",
         "imagem": "images/produtos/tecnologia/som/s20.jpg",
+        "categoria": "Fone de Ouvido",
         "disponivel": true
     },
     {
@@ -144,6 +164,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s21.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -151,6 +172,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s22.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -158,6 +180,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s23.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -165,6 +188,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s24.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -172,6 +196,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s25.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -179,6 +204,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s26.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -186,6 +212,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s27.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -193,6 +220,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s28.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -200,6 +228,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s29.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -207,6 +236,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s30.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -214,6 +244,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s31.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -221,6 +252,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s32.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -228,6 +260,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s33.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -235,6 +268,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s34.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -242,6 +276,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s35.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -249,6 +284,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s36.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -256,6 +292,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s37.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -263,6 +300,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s38.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -270,6 +308,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s39.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -277,6 +316,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s40.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -284,6 +324,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s16.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -291,6 +332,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s41.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -298,6 +340,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s42.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -305,6 +348,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s43.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -312,6 +356,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s44.jpg",
+        "categoria": "",
         "disponivel": "inv"
     },
     {
@@ -319,6 +364,7 @@
         "preco": "R$ ",
         "url": "",
         "imagem": "images/produtos/tecnologia/som/s45.jpg",
+        "categoria": "",
         "disponivel": "inv"
     }
 ]
