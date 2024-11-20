@@ -82,5 +82,26 @@
         "url": "https://s.shopee.com.br/9pNDVW1Xi8",
         "imagem": "images/produtos/tecnologia/som/s12.jpg",
         "disponivel": true
+    },
+	{
+        "nome": "O Mais Novo Leitor De MP3 Player Bluetooth 5.0 HIFI Sport Music Speakers MP4 Media FM Rádio Gravador De Voz Ebook",
+        "preco": "R$ 75,52",
+        "url": "https://s.shopee.com.br/50HzCqmvjw",
+        "imagem": "images/produtos/tecnologia/som/s13.jpg",
+        "disponivel": true
+    },
+	{
+        "nome": "Aparelho Mp3 Com Bluetooth Radio Fm Usb + 4 Alto Falante Leson 5 Polegadas",
+        "preco": "R$ 196,23",
+        "url": "https://s.shopee.com.br/30Wuq6JVHy",
+        "imagem": "images/produtos/tecnologia/som/s14.jpg",
+        "disponivel": true
+    },
+	{
+        "nome": "Rádio Caixa De Som Casa Bar Rancho Churrasco Usb Bluetooth",
+        "preco": "R$ 409,90",
+        "url": "https://s.shopee.com.br/8KYRC29AS0",
+        "imagem": "images/produtos/tecnologia/som/s15.jpg",
+        "disponivel": true
     }
 ]
