@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área Administrativa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/admin.css') }}">
+</head>
+<body class="admin-page">
+    <div class="admin-container">
+        <h1>Área Administrativa</h1>
+        
+        <div class="stats">
+            <p>Visitas na Home: {{ visitas["home"] }}</p>
+            <p>Visitas em Tecnologia e Som: {{ visitas["tecnologia_som"] }}</p>
+        </div>
+        
+        <a href="{{ url_for('logout') }}" class="logout-button">Sair</a>
+    </div>
+</body>
+</html>

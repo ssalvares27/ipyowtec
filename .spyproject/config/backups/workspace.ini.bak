@@ -4,7 +4,7 @@ save_data_on_exit = True
 save_history = True
 save_non_project_files = False
 project_type = 'empty-project-type'
-recent_files = ['app.py', 'teste.py', '..\\..\\Downloads\\converte webp_para_jpg.py']
+recent_files = ['app.py']
 
 [main]
 version = 0.2.0
