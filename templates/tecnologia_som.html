@@ -5,17 +5,19 @@
 <h2>Caixas de Som e Dispositivos de Áudio</h2>
 <div class="grid">
     {% for produto in produtos %}
-        <div class="produto {% if not produto.disponivel %}esgotado{% endif %}">
-            <img src="{{ url_for('static', filename=produto.imagem) }}" alt="{{ produto.nome }}">
-            <h3>{{ produto.nome }}</h3>
-            {# <p>{{ produto.preco }}</p> #}
-            {% if produto.disponivel %}
-                <a href="{{ produto.url }}" target="_blank" class="btn-add-cart">Conferir</a>
-            {% else %}
-                <p class="esgotado">Produto Esgotado</p>
-            {% endif %}
-        </div>
+        {% if produto.disponivel != 'inv' %}
+            <div class="produto {% if not produto.disponivel %}esgotado{% endif %}">
+                <img src="{{ url_for('static', filename=produto.imagem) }}" alt="{{ produto.nome }}">
+                <h3>{{ produto.nome }}</h3>
+                {% if produto.disponivel == True %}
+                    <a href="{{ produto.url }}" target="_blank" class="btn-add-cart">Conferir</a>
+                {% else %}
+                    <p class="esgotado">Produto Esgotado</p>
+                {% endif %}
+            </div>
+        {% endif %}
     {% endfor %}
 </div>
 
 {% endblock %}
+
