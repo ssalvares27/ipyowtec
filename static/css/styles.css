@@ -59,6 +59,11 @@ body {
     font-size: 1rem; /* Mantém o tamanho original da fonte */
 }
 
+.logo-img {
+    width: 100px; /* Ajuste o valor conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
 .hero {
     text-align: center;
     padding: 5rem 2rem;

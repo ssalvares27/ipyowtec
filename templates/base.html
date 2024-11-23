@@ -10,7 +10,11 @@
 </head>
 <body>
     <header class="header">
-        <div class="logo">IpyowTec</div>
+        <div class="logo">
+         <!-- <img src="{{ url_for('static', filename='images/site/logo.png') }}" alt="IpyowTec Logo" class="logo-img"> -->
+         IpyowTec
+        
+        </div>
         <nav class="nav">
             <!-- Usando url_for para gerar o link correto -->
             <a href="{{ url_for('home') }}">Home</a>
