@@ -256,106 +256,188 @@
         "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa Som Retro Antiga Am Fm Usb Aux Sd Bluetooth Recarregável Som Antena Analogico",
+        "preco": "R$ 114,99",
+        "url": "https://s.shopee.com.br/2LHNbw513g",
         "imagem": "images/produtos/tecnologia/som/s33.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa De Som Bluetooth Canhão Portátil Potente Aux Microfone Entrada Cartão Micro Sd USB Com Alça Com LED RGB",
+        "preco": "R$ 159,99",
+        "url": "https://s.shopee.com.br/10m021aZ8u",
         "imagem": "images/produtos/tecnologia/som/s34.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa De Som Multimidia Soundbar Bluetooth Tv Smart Rádio FM HDMI AUX Com Controle",
+        "preco": "R$ 394,99",
+        "url": "https://s.shopee.com.br/6KnWO886c6",
         "imagem": "images/produtos/tecnologia/som/s35.jpg",
         "categoria": "",
-        "disponivel": "inv"
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa de Som Bluetooth JBL GO4 IPX7, À Prova d'água, Autonomia de até 7 Horas Azul",
+        "preco": "R$ 258,00",
+        "url": "https://s.shopee.com.br/5AbZ08rJyV",
         "imagem": "images/produtos/tecnologia/som/s36.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Fone de ouvido gamer WAAW ENERGY 100EBG",
+        "preco": "R$ 199,90",
+        "url": "https://s.shopee.com.br/40PbcGbDOo",
         "imagem": "images/produtos/tecnologia/som/s37.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Fone de Ouvido",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa de Som Flip 6 Bluetooth 5.1 Portátil Cinza Stone",
+        "preco": "R$ 629,00",
+        "url": "https://s.shopee.com.br/VpjRxUG6u",
         "imagem": "images/produtos/tecnologia/som/s38.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "VITROLA RAVEO STUDIO PLUS 78RPM 50W (MARROM)",
+        "preco": "R$ 822,00",
+        "url": "https://s.shopee.com.br/6KnWOwaIyp",
         "imagem": "images/produtos/tecnologia/som/s39.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Vitrola",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "MICROFONE JBL PARTYBOX WIRELESS MIC",
+        "preco": "R$ 592,00",
+        "url": "https://s.shopee.com.br/1qL730NR5s",
         "imagem": "images/produtos/tecnologia/som/s40.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Microfone",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s16.jpg",
-        "categoria": "",
-        "disponivel": "inv"
-    },
-    {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa De Som Boombox Plus Aiwa Bbs-01-Gr 200w Bt 30h Ip66 Usb Verde",
+        "preco": "R$ 1.459,00",
+        "url": "https://s.shopee.com.br/BCt45Tzlu",
         "imagem": "images/produtos/tecnologia/som/s41.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa de Som WAAW by Alok ME 100SB, 5W, Bluetooth, Resistente à Água IPX6, Preto e Verde",
+        "preco": "R$ 168,00",
+        "url": "https://s.shopee.com.br/3fmlEjBpeI",
         "imagem": "images/produtos/tecnologia/som/s42.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "FONE DE OUVIDO BLUETOOTH HUAWEI FREEBUDS SE2 IP54 BRANCO",
+        "preco": "R$ 175,00",
+        "url": "https://s.shopee.com.br/60Ag1AueD2",
         "imagem": "images/produtos/tecnologia/som/s43.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Fone de Ouvido",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Caixa de Som, Bluetooth, À Prova de respingos, TWS, JBL Party Box, Encore Essential - PRETA",
+        "preco": "R$ 1.397,00",
+        "url": "https://s.shopee.com.br/60Ag1OFaXI",
         "imagem": "images/produtos/tecnologia/som/s44.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+        "nome": "Fone de ouvido bluetooth WAAW MOB 100EB",
+        "preco": "R$ 183,00",
+        "url": "https://s.shopee.com.br/AKJfBYpRNV",
+        "imagem": "images/produtos/tecnologia/som/s45.jpg",
+        "categoria": "Fone de Ouvido",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa de Som Bluetooth Led RGB TWS USB P2 Rádio FM Entrada P10 Com Mic Karaokê Suporte Para Celular",
+        "preco": "R$ 214,99",
+        "url": "https://s.shopee.com.br/50I8pvVl8Z",
+        "imagem": "images/produtos/tecnologia/som/s46.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa De Som Waaw Sound Box Bluetooth Infinite 200 Preta Led",
+        "preco": "R$ 1.322,00",
+        "url": "https://s.shopee.com.br/9A7hnzb98m",
+        "imagem": "images/produtos/tecnologia/som/s47.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa De Som Partybox Aiwa Aws-Pb-07 Bluetooth Led Rgb",
+        "preco": "R$ 1.028,00",
+        "url": "https://s.shopee.com.br/8zoHbr2TFL",
+        "imagem": "images/produtos/tecnologia/som/s48.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+        "nome": "Fone de Ouvido sem Fio, Samsumg Galaxy Buds FE-R400, Bluetooth, com Cancelamento de Ruído - BRANCO",
+        "preco": "R$ 415,00",
+        "url": "https://s.shopee.com.br/2fuE4NMbuS",
+        "imagem": "images/produtos/tecnologia/som/s49.jpg",
+        "categoria": "Fone de Ouvido",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa De Som PortÁTil Clip 5 Black",
+        "preco": "R$ 352,00",
+        "url": "https://s.shopee.com.br/5KuzFRYGeZ",
+        "imagem": "images/produtos/tecnologia/som/s50.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+         "nome": "Caixa De Som Amplificada Amvox ACA 221 GIGANTE II 1 alto falante 8\" 200W Bluetooth TWS Led Bivolt",
+         "preco": "R$ 279,90",
+         "url": "https://s.shopee.com.br/7AMdRD00Fm",
+         "imagem": "images/produtos/tecnologia/som/s51.jpg",
+         "categoria": "Caixa de Som",
+         "disponivel": true
+     },
+
+    {
+        "nome": "Novos Fones De Ouvido Bluetooth Sem Fio Stitch AH-806 HIFI Estéreo Dobráveis Com Microfone Anime Cartoon Presente Para Crianças",
+        "preco": "R$ 41,57",
+        "url": "https://s.shopee.com.br/4L2S4ICJlM",
+        "imagem": "images/produtos/tecnologia/som/s52.jpg",
+        "categoria": "Fone de Ouvido",
+        "disponivel": true
+    },
+    
+    {
+        "nome": "Caixa Bob Residencial Vertical 3x5 Ativa Bluetooth Bt/Usb/Sd/Aux/Fm Rádio Suporte Celular 2 Usb Carrega Celular",
+        "preco": "R$ 385,26",
+        "url": "https://s.shopee.com.br/7AMdSuWNrI",
+        "imagem": "images/produtos/tecnologia/som/s53.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+        "nome": "Caixa Som Bluetooth Amplificada Alta Potente LED RGB Aux P2 Micro SD USB Radio FM Acompanha Microfone Karaoke",
+        "preco": "R$ 134,99",
+        "url": "https://s.shopee.com.br/8fBRFvFsZx",
+        "imagem": "images/produtos/tecnologia/som/s54.jpg",
+        "categoria": "Caixa de Som",
+        "disponivel": true
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s54.jpg",
         "categoria": "",
         "disponivel": "inv"
     },
@@ -363,8 +445,97 @@
         "nome": "",
         "preco": "R$ ",
         "url": "",
-        "imagem": "images/produtos/tecnologia/som/s45.jpg",
+        "imagem": "images/produtos/tecnologia/som/s56.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s57.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s58.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s59.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s60jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s61.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s62.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s63.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s64.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s65.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s66.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/tecnologia/som/s67.jpg",
         "categoria": "",
         "disponivel": "inv"
     }
+    
 ]

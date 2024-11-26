@@ -1,31 +1,35 @@
 [
     {
-        "nome": "Caixa de Som Bluetooth RGB Com Microfone Karaokê Potente 100W Portátil Xtrad",
-        "preco": "R$ 279,97",
-        "url": "https://s.shopee.com.br/3fmUr40QdC",
-        "imagem": "images/produtos/tecnologia/som/s1.jpg",
-        "disponivel": true
+         "nome": "Caixa De Som Amplificada Amvox ACA 221 GIGANTE II 1 alto falante 8\" 200W Bluetooth TWS Led Bivolt",
+         "preco": "R$ 279,90",
+         "url": "https://s.shopee.com.br/7AMdRD00Fm",
+         "imagem": "images/produtos/tecnologia/som/s51.jpg",
+         "categoria": "Caixa de Som",
+         "disponivel": true
     },
     {
-        "nome": "Caixa de som Bluetooth Potente Grande Portatil Com Microfone e LED Karaokê 30W*2 XDG-37 Marca XTRAD",
-        "preco": "R$ 319,99",
-        "url": "https://s.shopee.com.br/4L2Bhtdnn2",
-        "imagem": "images/produtos/tecnologia/som/s2.jpg",
+        "nome": "Novos Fones De Ouvido Bluetooth Sem Fio Stitch AH-806 HIFI Estéreo Dobráveis Com Microfone Anime Cartoon Presente Para Crianças",
+        "preco": "R$ 41,57",
+        "url": "https://s.shopee.com.br/4L2S4ICJlM",
+        "imagem": "images/produtos/tecnologia/som/s52.jpg",
+        "categoria": "Fone de Ouvido",
         "disponivel": true
     },
 
     {
-        "nome": "Fone de ouvido Sem Fio Gamer Bluetooth RGB Edição Samurai Cyber Xtrad LC-879",
-        "preco": "R$ 119,97",
-        "url": "https://s.shopee.com.br/7fIfBo5g2F",
-        "imagem": "images/produtos/tecnologia/som/s5.jpg",
+        "nome": "Caixa Bob Residencial Vertical 3x5 Ativa Bluetooth Bt/Usb/Sd/Aux/Fm Rádio Suporte Celular 2 Usb Carrega Celular",
+        "preco": "R$ 385,26",
+        "url": "https://s.shopee.com.br/7AMdSuWNrI",
+        "imagem": "images/produtos/tecnologia/som/s53.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     },
     {
-        "nome": "Caixa de som portátil bluetooth fusca RGB portátil com rodinha FM XTRAD WS-1939",
-        "preco": "R$ 99,97",
-        "url": "https://s.shopee.com.br/5pr11NTAVu",
-        "imagem": "images/produtos/tecnologia/som/s6.jpg",
+        "nome": "Caixa Som Bluetooth Amplificada Alta Potente LED RGB Aux P2 Micro SD USB Radio FM Acompanha Microfone Karaoke",
+        "preco": "R$ 134,99",
+        "url": "https://s.shopee.com.br/8fBRFvFsZx",
+        "imagem": "images/produtos/tecnologia/som/s54.jpg",
+        "categoria": "Caixa de Som",
         "disponivel": true
     }
 ]
