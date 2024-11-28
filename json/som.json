@@ -434,108 +434,76 @@
         "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s54.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+         "nome": "Radio Retro bluetooth ,entrada usb,microsd lanterna e sainda auxiliar AD-3199",
+         "preco": "R$ 69,88",
+         "url": "https://s.shopee.com.br/5Kv2RXwLXP",
+         "imagem": "images/produtos/tecnologia/som/s55.jpg",
+         "categoria": "Caixa de Som",
+         "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Rádio Retrô Vintage Portátil com bluetooth carregavel na Tomada / pilha Am Fm Sw Pendrive Com Sd Usb",
+        "preco": "R$ 63,88",
+        "url": "https://s.shopee.com.br/8AFDowXqPC",
         "imagem": "images/produtos/tecnologia/som/s56.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
+
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Rádio Retro Com Relógio Despertador Exibição De Hora Bluetooth Portátil Espelho USB",
+        "preco": "R$ 35,99",
+        "url": "https://s.shopee.com.br/7fIxEAWBHN",
         "imagem": "images/produtos/tecnologia/som/s57.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Rádio Retro Caixa de Som Bluetooth Usb Sd Am Fm multimídia Carregador Placa Solar com Lanterna",
+        "preco": "R$ 69,88",
+        "url": "https://s.shopee.com.br/6KnZdrkkfR",
         "imagem": "images/produtos/tecnologia/som/s58.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Caixa de Som",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Rádio Som Automotivo MP3 C/ Bluetooth 2 USB's Aux Pen Drive 1 Din",
+        "preco": "R$ 69,90",
+        "url": "https://s.shopee.com.br/8fBUQbYwgM",
         "imagem": "images/produtos/tecnologia/som/s59.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Som Carro",
+        "disponivel": false
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s60jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "nome": "Som Automotivo Rádio Mp3 Universal 1 Din Carro USB SD Bluetooth",
+        "preco": "R$ 89,99",
+        "url": "https://s.shopee.com.br/AKJiQLlNlq",
+        "imagem": "images/produtos/tecnologia/som/s60.jpg",
+        "categoria": "Som Carro",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Kit Central Multimidia Android 7 Pol Onix 2013 14 15 2016 2017 2018 Cobalt 2011 12 13 2014 2015",
+        "preco": "R$ 619,90",
+        "url": "https://s.shopee.com.br/8fBURPoMGl",
         "imagem": "images/produtos/tecnologia/som/s61.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Som Carro",
+        "disponivel": true
     },
     {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
+        "nome": "Kit Multimidia Android 7 Pol Mobi 2016 2017 18 19 2020 2021",
+        "preco": "R$ R$943,42",
+        "url": "https://s.shopee.com.br/AA0IEKrOYY",
         "imagem": "images/produtos/tecnologia/som/s62.jpg",
-        "categoria": "",
-        "disponivel": "inv"
+        "categoria": "Som Carro",
+        "disponivel": true
     },
     {
         "nome": "",
         "preco": "R$ ",
         "url": "",
-        "imagem": "images/produtos/tecnologia/som/s63.jpg",
-        "categoria": "",
-        "disponivel": "inv"
-    },
-    {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s64.jpg",
-        "categoria": "",
-        "disponivel": "inv"
-    },
-    {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s65.jpg",
-        "categoria": "",
-        "disponivel": "inv"
-    },
-    {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s66.jpg",
-        "categoria": "",
-        "disponivel": "inv"
-    },
-    {
-        "nome": "",
-        "preco": "R$ ",
-        "url": "",
-        "imagem": "images/produtos/tecnologia/som/s67.jpg",
+        "imagem": "images/produtos/tecnologia/som/s.jpg",
         "categoria": "",
         "disponivel": "inv"
     }
-    
 ]
