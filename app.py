@@ -16,8 +16,11 @@ app.secret_key = os.getenv("SECRET_KEY")  # Substitua por uma chave segura!
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dados.db'  # URI do banco de dados SQLite
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False  # Desativa o rastreamento de modificações
 db = SQLAlchemy(app)
+# Criar as tabelas automaticamente se não existirem
+with app.app_context():
+    db.create_all()  # Isso cria as tabelas no banco de dados
 
-# ==================== Modelo Dados ====================================
+# ==================== Banco de Dados =========================================
 
 class Dado(db.Model):
     __tablename__ = 'dado'  # Nome da tabela
@@ -28,12 +31,54 @@ class Dado(db.Model):
     def __repr__(self):
         return f'<Dado {self.pagina}>'
 
-# ==================== Funções e Rota ====================================
+# ==================== Home ===================================================
 
-def registrar_visita(pagina):
-    """
-    Incrementa o contador de visitas para a página especificada.
-    """
+@app.route('/')
+def home():
+    registrar_visita("home")
+    produtos = carregar_produtos('destaque')
+    return render_template('index.html', produtos=produtos)
+
+# ==================== Admin ==================================================
+
+# Decorador para proteger rotas com autenticação.
+def login_required(f):  
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if session.get('logged_in') is None:
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
+
+# Rota para login de administrador.
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        username = request.form['username']
+        password = request.form['password']       
+        if admin_login == username and admin_password == password:  # Credenciais de exemplo
+            session['logged_in'] = True
+            return redirect(url_for('admin'))
+        else:
+            return render_template('login.html', erro="Credenciais inválidas!")
+    return render_template('login.html')
+
+#  Rota para sair da área administrativa.
+@app.route('/logout')
+def logout():  
+    session.pop('logged_in', None)
+    return redirect(url_for('home'))
+
+# Área administrativa protegida com estatísticas de visitas.
+@app.route('/admin')
+@login_required
+def admin():
+    dados_visitas = Dado.query.all()
+    visitas = {dado.pagina: dado.contador for dado in dados_visitas}
+    return render_template('admin.html', visitas=visitas)
+
+# Incrementa o contador de visitas para a página especificada.
+def registrar_visita(pagina): 
     dado = Dado.query.filter_by(pagina=pagina).first()
     if dado is None:
         # Se o dado não existir, cria um novo
@@ -45,10 +90,10 @@ def registrar_visita(pagina):
         dado.contador += 1
         db.session.commit()
 
+# ==================== Produtos  ==============================================
+
+# Carrega os produtos de acordo com a categoria informada.
 def carregar_produtos(categoria):
-    """
-    Carrega os produtos de acordo com a categoria informada.
-    """
     arquivo_json = f'json/{categoria}.json'
     try:
         with open(arquivo_json, 'r', encoding='utf-8') as file:
@@ -61,70 +106,19 @@ def carregar_produtos(categoria):
         print(f"Erro ao decodificar o arquivo {arquivo_json}.")
         return []
 
-# Middleware de autenticação
-def login_required(f):
-    """
-    Decorador para proteger rotas com autenticação.
-    """
-    @wraps(f)
-    def decorated_function(*args, **kwargs):
-        if session.get('logged_in') is None:
-            return redirect(url_for('login'))
-        return f(*args, **kwargs)
-    return decorated_function
+# Eletronicos Som
+@app.route('/eletronicos_som')
+def eletronicos_som():
+    registrar_visita("eletronicos_som")
+    produtos = carregar_produtos('eletronicos_som')
+    return render_template('eletronicos_som.html', produtos=produtos)
 
-# ==================== Rotas ==================================================
-
-@app.route('/')
-def home():
-    registrar_visita("home")
-    produtos = carregar_produtos('destaque')
-    return render_template('index.html', produtos=produtos)
-
-@app.route('/tecnologia_som')
-def tecnologia_som():
-    registrar_visita("tecnologia_som")
-    produtos = carregar_produtos('som')
-    return render_template('tecnologia_som.html', produtos=produtos)
-
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    """
-    Rota para login de administrador.
-    """
-    if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']       
-        if admin_login == username and admin_password == password:  # Credenciais de exemplo
-            session['logged_in'] = True
-            return redirect(url_for('admin'))
-        else:
-            return render_template('login.html', erro="Credenciais inválidas!")
-    return render_template('login.html')
-
-@app.route('/logout')
-def logout():
-    """
-    Rota para sair da área administrativa.
-    """
-    session.pop('logged_in', None)
-    return redirect(url_for('home'))
-
-@app.route('/admin')
-@login_required
-def admin():
-    """
-    Área administrativa protegida com estatísticas de visitas.
-    """
-    dados_visitas = Dado.query.all()
-    visitas = {dado.pagina: dado.contador for dado in dados_visitas}
-    return render_template('admin.html', visitas=visitas)
-
-# ==================== Inicialização do Banco de Dados ======================
-
-# Criar as tabelas automaticamente se não existirem
-with app.app_context():
-    db.create_all()  # Isso cria as tabelas no banco de dados
+# Informatica Impressora
+@app.route('/informatica_impressora')
+def informatica_impressora():
+    registrar_visita("informatica_impressora")
+    produtos = carregar_produtos('informatica_impressora')
+    return render_template('informatica_impressora.html', produtos=produtos)
 
 # ==================== Main ===================================================
 

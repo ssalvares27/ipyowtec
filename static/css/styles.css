@@ -14,9 +14,9 @@ body {
 /* Container principal para centralizar o conteúdo */
 .main-container {
     width: 100%;
-    max-width: 1200px; /* Define a largura máxima do conteúdo */
-    margin: 0 auto; /* Centraliza horizontalmente */
-    padding: 20px; /* Espaço interno */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .header {
@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background: #007BFF;
+    background: #D32F2F; /* Cor vermelha */
     color: #fff;
     position: sticky;
     top: 0;
@@ -32,50 +32,120 @@ body {
     width: 100%;
 }
 
-.header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
+.header .logo {    
+    top: -20px;
+    left: 20px;
+    z-index: 2;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.logo-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .nav {
     display: flex;
-    gap: 1rem; /* Espaçamento entre os links */
+    gap: 1rem;
 }
 
 .nav a {
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none;
     color: #fff;
     font-weight: 500;
-    padding: 0.5rem 1rem; /* Adiciona espaço interno ao link */
+    padding: 0.5rem 1rem;
     border-radius: 5px;
-    transition: all 0.3s ease; /* Suaviza a transição */
-    border: 2px solid transparent; /* Contorno inicial transparente */
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
 }
 
 .nav a:hover {
-    background: #0056b3; /* Cor de fundo ao passar o mouse */
+    background: #FF7043;
     color: #fff;
-    border-color: #fff; /* Aplica o contorno branco */
-    font-size: 1rem; /* Mantém o tamanho original da fonte */
+    border-color: #fff;
+    font-size: 1rem;
 }
 
-.logo-img {
-    width: 100px; /* Ajuste o valor conforme necessário */
-    height: auto; /* Mantém a proporção da imagem */
+/* ===================== menu produtos ========================================== */
+
+.thin-menu {
+    background-color: #FF7043; /* Cor laranja */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
+.thin-menu span {
+    color: #fff; /* Cor branca */
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    cursor: pointer; /* Para dar a sensação de interatividade */
+}
+
+.thin-menu a {
+    color: #fff; /* Cor branca */
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 160px;
+    text-align: left;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.dropdown-content a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* =============================================================== */
+
+/* Hero section */
 .hero {
     text-align: center;
     padding: 5rem 2rem;
-    background: linear-gradient(to bottom right, rgba(0, 123, 255, 0.8), rgba(0, 86, 179, 0.8)), 
+    background: linear-gradient(to bottom right, rgba(255, 112, 67, 0.8), rgba(0, 86, 179, 0.8)),
                 url('/static/images/site/fundo.jpg') no-repeat center center;
     background-size: cover;
     color: #fff;
     max-width: 1200px;
     margin: 0 auto;
-    border-radius: 0px; /* Se desejar bordas arredondadas */
+    border-radius: 0px;
 }
-
 
 .hero h1 {
     font-size: 2.5rem;
@@ -83,11 +153,10 @@ body {
 }
 
 .email-link {
-    font-size: 1.4rem; /* Aumenta o tamanho da fonte */
-    color: #004080;   /* Cor azul escuro */
-    margin: 1rem 0;   /* Adiciona um pouco de espaçamento acima e abaixo */
+    font-size: 1.4rem;
+    color: #004080;
+    margin: 1rem 0;
 }
-
 
 /* Grid de produtos */
 .produtos {
@@ -97,11 +166,11 @@ body {
 
 .produtos .grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
-    gap: 1.5rem; /* Espaçamento entre os produtos */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
     margin-top: 2rem;
     max-width: 1200px;
-    margin: 0 auto; /* Centraliza a grid */
+    margin: 0 auto;
 }
 
 .produto {
@@ -110,11 +179,11 @@ body {
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     display: flex;
-    flex-direction: column; /* Alinha os elementos verticalmente */
-    justify-content: space-between; /* Espaça os elementos uniformemente */
-    align-items: center; /* Centraliza horizontalmente */
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     transition: transform 0.3s;
-    height: 100%; /* Altura consistente */
+    height: 100%;
 }
 
 .produto:hover {
@@ -122,151 +191,73 @@ body {
 }
 
 .produto img {
-    width: 100%; /* Ajusta a largura ao container */
-    max-width: 200px; /* Define uma largura máxima */
-    height: auto; /* Mantém a proporção da altura */
-    object-fit: contain; /* Ajusta a imagem sem cortar */
-    border-radius: 5px; /* Cantos arredondados */
-    margin: 0 auto; /* Centraliza a imagem no card */
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 5px;
+    margin: 0 auto;
 }
 
 .produto h3 {
     margin: 1rem 0 0.5rem;
-    text-align: center; /* Centraliza o texto */
-    flex-grow: 1; /* Permite que a descrição ocupe mais espaço, se necessário */
+    text-align: center;
 }
 
 .produto p {
-    color: #28A745;  /* Verde, para destacar o preço */
-    background: #E2FFDB; /* Fundo verde claro */
+    color: #28A745;
+    background: #E2FFDB;
     padding: 0.2rem 0.5rem;
     border-radius: 5px;
     font-weight: bold;
-    margin-bottom: 0.5rem; /* Espaço abaixo do preço */
+    margin-bottom: 0.5rem;
 }
 
 /* Botão de adicionar ao carrinho */
 .produto .btn-add-cart {
-    background: #007BFF;
+    background: #FF7043; /* Cor laranja */
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    align-self: stretch; /* Faz o botão ocupar toda a largura */
-    text-align: center; /* Centraliza o texto do botão */
-    text-decoration: none; /* Remove o sublinhado */
+    align-self: stretch;
+    text-align: center;
+    text-decoration: none;
 }
 
 .produto .btn-add-cart:hover {
-    background: #0056b3; /* Cor de fundo ao passar o mouse */
+    background: #D32F2F; /* Cor vermelha */
 }
 
-/* Aplica efeito preto e branco em todo o produto quando estiver esgotado */
+/* Produto esgotado */
 .produto.esgotado {
     filter: grayscale(100%) brightness(50%);
-    color: #888; /* Deixa o texto mais apagado */
+    color: #888;
 }
 
 .produto.esgotado img {
-    filter: grayscale(100%) brightness(50%); /* Deixa a imagem em preto e branco */
+    filter: grayscale(100%) brightness(50%);
 }
 
 .produto.esgotado h3,
 .produto.esgotado p,
 .produto.esgotado .btn-add-cart {
-    color: #888; /* Deixa o texto desbotado */
+    color: #888;
 }
 
 .produto.esgotado .btn-add-cart {
-    pointer-events: none; /* Desabilita o botão de conferir para produtos esgotados */
-    cursor: not-allowed; /* Muda o cursor para indicar que o botão não está disponível */
+    pointer-events: none;
+    cursor: not-allowed;
 }
 
-
-.sobre {
-    padding: 2rem;
-    text-align: center;
-    background: #e9ecef;
-}
-
-.contato {
+.sobre, .contato {
     padding: 2rem;
     text-align: center;
     background: #e9ecef;
 }
 
 /* Rodapé */
-.footer {
-    text-align: center;
-    padding: 1rem;
-    background: #333;
-    color: #fff;
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 1024px) {
-    .produtos .grid {
-        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
-    }
-
-    .produto img {
-        max-width: 180px; /* Ajusta a largura das imagens */
-    }
-
-    .nav a {
-        margin: 0 0.5rem;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column;
-        align-items: flex-start;
-        padding: 1rem;
-    }
-
-    .produtos .grid {
-        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-    }
-
-    .produto img {
-        max-width: 150px; /* Ajusta ainda mais a largura das imagens */
-    }
-
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .header .logo {
-        font-size: 1.2rem;
-    }
-
-    .produtos .grid {
-        grid-template-columns: 1fr; /* 1 coluna */
-    }
-
-    .nav a {
-        font-size: 0.9rem;
-        margin: 0 0.3rem;
-    }
-
-    .hero h1 {
-        font-size: 1.5rem;
-    }
-
-    .produto img {
-        max-width: 130px; /* Ajusta ainda mais a largura das imagens */
-    }
-}
-
-/* Estilizando o footer e os ícones das redes sociais */
 .footer {
     text-align: center;
     padding: 1rem;
@@ -287,49 +278,156 @@ body {
 }
 
 .social-icon:hover {
-    color: #007BFF; /* Mudando a cor ao passar o mouse */
+    color: #FF7043; /* Cor laranja */
 }
 
 .social-icon i {
     margin-right: 8px;
 }
 
-/* Estilos gerais para o seletor de categorias */
-#categoriaSelector {
-    padding: 10px;
+/* ===================== seletor de categorias  ===============================*/
+
+/* Contêiner do seletor personalizado */
+.custom-select {
+    position: relative;
+    width: 250px;
     font-size: 16px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 250px;  /* Tamanho fixo para o seletor */
-    margin: 10px 0;  /* Margem superior e inferior */
-    display: inline-block;  /* Fica na mesma linha do conteúdo */
-    background-color: #fff;
     cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
+    user-select: none;
+    margin: 0 auto; /* Centraliza o seletor horizontalmente */
+    display: block; /* Garante que o seletor ocupe uma linha inteira */
+    margin-bottom: 30px; /* Espaço entre o seletor e os produtos */
 }
 
-/* Adiciona estilo quando o seletor estiver em foco */
-#categoriaSelector:focus {
-    border-color: #007bff;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+/* Estilo do campo selecionado com ícone de seta */
+.selected-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto dentro do campo */
+    position: relative; /* Necessário para posicionar a seta */
+    cursor: pointer; /* Mostra que o campo é clicável */
 }
 
-/* Estilo para posicionar o seletor acima da grade de produtos */
+/* Seta para baixo */
+.selected-option::after {
+    content: "▼"; /* Seta para baixo */
+    font-size: 12px;
+    color: #333;
+    position: absolute;
+    right: 10px; /* Posiciona à direita */
+    top: 50%;
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    pointer-events: none; /* Impede interação com a seta */
+}
+
+/* Lista de opções escondida inicialmente */
+.options-list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    list-style: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+/* Estilo de cada opção */
+.options-list li {
+    padding: 10px;
+    color: #333;
+    background-color: #fff;
+    transition: background-color 0.2s, color 0.2s;
+    text-align: center; /* Centraliza o texto das opções */
+}
+
+/* Hover nas opções */
+.options-list li:hover {
+    background-color: #D32F2F;
+    color: #fff;
+}
+
+/* Exibir a lista ao ativar */
+.custom-select.active .options-list {
+    display: block;
+}
+
+/* Centralizar o seletor em relação aos produtos */
 .grid-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 20px;  /* Espaço entre o título e o seletor */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+    margin-top: 20px;
 }
 
-/* Título da página */
+
+
+
+/* ============================================================================*/
+
+
 h2 {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
+/* Responsividade */
+@media (max-width: 1024px) {
+    .produtos .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 
+    .produto img {
+        max-width: 180px;
+    }
 
+    .nav a {
+        margin: 0 0.5rem;
+    }
 
+    .hero h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .produtos .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .produto img {
+        max-width: 150px;
+    }
+
+    .hero h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .logo {
+        font-size: 1.2rem;
+    }
+
+    .produtos .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav a {
+       

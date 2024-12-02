@@ -1,0 +1,26 @@
+[
+    {
+        "nome": "Kit com 2 Cartuchos Hp 664 Preto - F6V29AB - Original",
+        "preco": "R$ 129,90",
+        "url": "https://s.shopee.com.br/g9J5tVDVt",
+        "imagem": "images/produtos/informatica/impressora/i1.jpg",
+        "categoria": "Cartucho Tinta",
+        "disponivel": true
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/informatica/impressora/i.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    },
+    {
+        "nome": "",
+        "preco": "R$ ",
+        "url": "",
+        "imagem": "images/produtos/informatica/impressora/i.jpg",
+        "categoria": "",
+        "disponivel": "inv"
+    }
+]

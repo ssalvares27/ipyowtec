@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h2>Caixas de Som e Dispositivos de Áudio</h2>
+
+<!-- Seletor de categoria -->
+<div class="grid-container">
+    <!-- Seletor personalizado -->
+    <div class="custom-select">
+        <div class="selected-option">Selecione uma categoria</div>
+        <ul class="options-list">
+            <li data-value="">Todos</li>
+            <li data-value="Caixa de Som">Caixa de Som</li>
+            <li data-value="Fone de Ouvido">Fone de Ouvido</li>
+            <li data-value="Microfone">Microfone</li>
+            <li data-value="MP3">MP3</li>
+            <li data-value="Receptor">Receptor</li>
+            <li data-value="Som Carro">Som Carro</li>
+            <li data-value="Vitrola">Vitrola</li>
+        </ul>
+        <input type="hidden" id="categoriaSelector" value="">
+    </div>
+</div>
+
+
+<div class="grid" id="produtosGrid">
+    {% for produto in produtos %}
+        {% if produto.disponivel != 'inv' %} <!-- Verifica se o produto está disponível -->
+            <div class="produto {% if not produto.disponivel %}esgotado{% endif %}" data-categoria="{{ produto.categoria }}">
+                <img src="{{ url_for('static', filename=produto.imagem) }}" alt="{{ produto.nome }}">
+                <h3>{{ produto.nome }}</h3>
+                {% if produto.disponivel %}
+                    <a href="{{ produto.url }}" target="_blank" class="btn-add-cart">Conferir</a>
+                {% else %}
+                    <p class="esgotado">Produto Esgotado</p>
+                {% endif %}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
+
+
+{% endblock %}
+
